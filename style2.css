@@ -1,0 +1,290 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+
+}
+
+h1 {
+	text-align: center;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+
+a.poster {
+	width: 200px;
+	height: 293px;
+	display: block;
+	float: left;
+	margin: 2px;
+	position:relative; 
+	overflow: hidden;
+
+}
+
+a.poster img{
+	width: 100%
+}
+
+footer {
+	clear:both;
+}
+
+.container {
+	width: 408px;
+	margin: auto;
+}
+
+.social {
+	background-color: #333;
+	position:fixed;
+	right: 0;
+	bottom:20%;
+}
+
+.social a {
+	padding:25px;
+	display: block;
+}
+
+
+body
+{
+  margin: 10px 0 ;
+  padding: 0 ;
+  text-align: center ;
+  font: 0.8em "Arial", helvetica, sans-serif ;
+  background-image: url('DSC06648-01.jpeg');
+  background-size: cover;
+}
+
+div#conteneur
+{
+  width: 770px ;
+  margin: 0 auto ;
+  text-align: left ;
+  border: 2px solid #000000 ;
+  background: #fff ;
+}
+
+h1#header
+{
+  height: 258px ;
+  margin: 0 ;
+  background: url(plage.jpeg) no-repeat left top;
+  background-size: cover;
+}
+
+h1#header a
+{
+  width: 180px ;
+  height: 72px ;
+  display: block ;
+  background: url(logoimie.jpg) no-repeat ;
+  position: relative ;
+  left: 575px ;
+  top: 10px ;
+  text-indent: -5000px ;
+}
+
+
+ul#menu
+{
+  height: 35px ;
+  margin: 0 ;
+  padding: 0 ;
+  background: url(bg_menu.gif) repeat-x 0 -25px ;
+  list-style-type: none ;
+
+}
+    
+ul#menu li
+{
+  float: left ;
+  text-align: center ;
+}
+
+ul#menu li a
+{
+  width: 130px ;
+  line-height: 25px ;
+  font-size: 1.2em ;
+  font-weight: bold ;
+  letter-spacing: 2px ;
+  color: #fff ;
+  display: block ;
+  text-decoration: none ;
+  border-right: 2px solid #dea ;
+}
+
+ul#menu li a:hover
+{
+ /* background: url(bg_menu.gif) repeat-x 0 0 ;*/
+}
+
+div#contenu
+{
+  padding: 0 25px 0 100px ;
+  background: url(formation.jpg) no-repeat 15px 15px ;
+}
+
+div#contenu h2
+{
+  padding-left: 25px ;
+  line-height: 25px ;
+  font-size: 1.4em ;
+  background: url(logomini.png) no-repeat left bottom ;
+  color: #000000 ;
+  border-bottom: 1px solid #191970;
+}
+
+div#contenu h3
+{
+  margin-left: 15px ;
+  padding-left: 5px ;
+  border-bottom: 1px solid #191970#191970 ;
+  border-left: 3px solid #191970 ;
+  color: #191970 ;
+}
+
+div#contenu p
+{
+  text-align: justify ;
+  text-indent: 2em ;
+  line-height: 1.7em ;
+}
+
+div#contenu a
+{
+  color: #191970 ;
+}
+
+div#contenu a:hover
+{
+  color: #191970 ;
+}
+
+p#footer
+{
+  margin: 0 ;
+  padding-right: 10px ;
+  line-height: 30px ;
+  text-align: right ;
+  color: #191970 ;
+}
+
+pre
+{
+  overflow: auto ;
+  background: #dea ;
+  border: 2px solid #191970 ;
+  padding: 5px 0 0 5px ;
+  font-size: 1.2em ;
+}
+
+* html pre
+{
+  width: 636px ;
+}
+
+pre span
+{
+  color: #560 ;
+}
+
+pre span.comment
+{
+  color: #b30000 ; /* rouge */
+}
+
+* { margin: 0; padding: 0; }
+ 
+nav {
+    font: 13px Arial;
+    background-color: #2d2d2d;
+}
+ 
+nav a { font-weight: bold; color: #bbbbbb; text-decoration: none; padding: 0 10px; line-height: 30px; }
+nav a:hover { color: #ffffff; }
+
+/*****************************
+ARTICLES
+*****************************/
+
+#article-list {
+  max-width: 1px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#article-list article {
+  position: relative;
+  overflow: hidden;
+}
+
+#article-list article img {
+  width: 90%;
+  display: block;
+}
+
+#article-list h2 {
+  margin-top: 10px;
+}
+
+#article-list article:hover .article-meta {
+  top: 0px;
+}
+
+.article-meta {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 400px;
+  width: 80%;
+  height: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+  transition: top 0.5s;
+}
+
+#article-list address, #article-list span {
+  display: inline;
+  margin-right: 5px;
+}
+
+/*****************************
+BOTTOM 
+*****************************/
+#bottom {
+
+}
+@media (min-width: 800px){
+
+  /* augmente la taille des containers et de la liste des articles */
+  #article-list, .container {
+    max-width: 960px;
+  }
+
+  /* affiche 2 articles par ligne */
+  article {
+    width: 50%;
+  }
+
+}
+
+/*****************************
+DESKTOP
+*****************************/
